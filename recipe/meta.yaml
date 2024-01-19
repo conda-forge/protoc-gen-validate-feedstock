@@ -1,5 +1,5 @@
 {% set name = "protoc-gen-validate" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/protoc-gen-validate-{{ version }}.tar.gz
-  sha256: a733b368e0415102c3298ba7720838093382ab835120e875837db2e34457f9a3
+  sha256: 5154f763a12d41e656643c5002bca996c2a470eff914ed9d2b2c9f2d7b0f1cc7
 
 build:
   noarch: python
